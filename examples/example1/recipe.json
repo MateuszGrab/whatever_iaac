@@ -1,0 +1,28 @@
+[
+  {
+    "namespace":"packaging",
+    "machinepack": "npm",
+    "machine": "install",
+    "args": [
+      "--package=os-name",
+      "--dest=/Users/japel/Projects/whatever_iaac/examples/example1"
+    ]
+  },
+  {
+    "namespace":"packaging",
+    "machinepack": "npm",
+    "machine": "install",
+    "args": [
+      "--package=lodash",
+      "--dest=/Users/japel/Projects/whatever_iaac/examples/example1"
+    ]
+  },
+  {
+    "namespace":"logging",
+    "machinepack": "fail",
+    "machine": "fail",
+    "args": [
+      "--msg=some shit went wrong"
+    ]
+  }
+]

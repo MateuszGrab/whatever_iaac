@@ -1,0 +1,26 @@
+{
+  "name": "machinepack-fail",
+  "version": "0.1.0",
+  "description": "just fails",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "IaaC Fail",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^12.2.5"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "IaaC Fail",
+    "machineDir": "machines/",
+    "machines": ["fail"]
+  }
+}

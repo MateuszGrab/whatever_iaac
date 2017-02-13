@@ -1,0 +1,27 @@
+{
+  "name": "whatever_iaac",
+  "version": "0.0.1",
+  "description": "prototype",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateuszGrab/whatever_iaac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateuszGrab/whatever_iaac/issues"
+  },
+  "homepage": "https://github.com/MateuszGrab/whatever_iaac#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "child-process-promise": "^2.2.0",
+    "machine-as-script": "^4.0.9"
+  }
+}

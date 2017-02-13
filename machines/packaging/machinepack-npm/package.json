@@ -1,0 +1,26 @@
+{
+  "name": "machinepack-npm",
+  "version": "0.1.0",
+  "description": "make npm stuff",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "npm",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^12.2.5"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "npm",
+    "machineDir": "machines/",
+    "machines": ["install"]
+  }
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const npm = require('../machines/packaging/machinepack-npm');
+const npm = require('../../machines/packaging/machinepack-npm/index');
 
 require('machine-as-script')({
   machine: npm.install
